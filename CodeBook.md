@@ -1,20 +1,18 @@
-## Getting and cleaning data assignement - Code book
+## Getting and cleaning data assignment - Code book
 
 Variables which are found in final.txt file which is the output of script 'run_analysis.R'
 
 * subject - Test subject number, values: 1-30
 * activity - name of the activity the test subject was performing, values:
- 1. WALKING
- 
+1. WALKING
 2. WALKING_UPSTAIRS
- 
 3. WALKING_DOWNSTAIRS
- 
+
 4. SITTING
 
- 5. STANDING
+5. STANDING
 
- 6. LAYING
+6. LAYING
 
 
 The below variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 

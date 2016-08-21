@@ -1,4 +1,4 @@
-## Getting and cleaning data assignement - Read me
+## Getting and cleaning data assignment - Read me
 
 This repo contains solution of a Coursera's Getting and cleaning data assignement.
 
@@ -7,17 +7,17 @@ This repo contains solution of a Coursera's Getting and cleaning data assignemen
 The script is assuming the required file was downloaded and unzipped, not changed.
 
 1. It merges the training and the test sets to create one data set
-* Reads test data
-* Labels the data set with descriptive variable names
-* Reads subject test data
-* Reads activity test data
-* Combines subject, activity and test data into one data frame
-* Reads train data
-* Again labels the data set with variable names
-* Reads subject train data
-* Reads activity train data
-* Combines subject, activity and train data into one data frame
-* Combines the test and train data
+	* Reads test data
+	* Labels the data set with descriptive variable names
+	* Reads subject test data
+	* Reads activity test data
+	* Combines subject, activity and test data into one data frame
+	* Reads train data
+	* Again labels the data set with variable names
+	* Reads subject train data
+	* Reads activity train data
+	* Combines subject, activity and train data into one data frame
+	* Combines the test and train data
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement
 * Changes data frame from previous step to have only first and second columns 
